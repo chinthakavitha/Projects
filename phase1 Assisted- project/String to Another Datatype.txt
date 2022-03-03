@@ -1,0 +1,18 @@
+public class StringtoAnotherDatatype 
+{
+
+public static void main(String[] args) {
+   //String s ="60";                         //declaring string variable.
+    String s="True";
+
+  //int i =Integer.parseInt(s);              //converting int to String.
+ //	System.out.println(i);
+	// double d=Double.parseDouble(s);    //converting double to String.
+	//	System.out.println(d);
+  Boolean b=Boolean.parseBoolean(s);        //converting boolean to String
+  System.out.println(b);
+		
+
+	}
+
+}
